@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins',sans-serif; */
+    box-sizing: border-box;
+}
+/* body{
+    background-color: rgb(20, 20, 20);
+} */
+
+body{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+
+}
+/* .card{
+    width: 90%;
+    max-width: 430px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 50px auto 50px;/*100 from right left,right auto and 0 from bottom*/
+    /* border-radius: 20px;
+    padding: 20px 20px;
+    text-align: center;
+} */ 
+.card {
+    width: 90%;
+    max-width: 430px;
+    background: rgba(255, 255, 255, 0.04); /* Background with transparency */
+    backdrop-filter: blur(140px); /* Blur effect */
+    color: #fff;
+    margin: 50px auto; /* Center the card */
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 8px 40px 0 rgba( 31, 38, 135, 0.37 ); /* Box shadow for depth */
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 20px 35px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;/*means flex-growth:1 flex-shrik:1 and flex-basis:0*/
+    margin-right: 16px;
+    font-size: 18px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    opacity: 0.7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+.search button img{
+    width: 18px; 
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 18px;
+}
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 26px;
+    margin-top: -6px;
+}
